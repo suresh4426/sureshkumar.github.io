@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+/* Body secetion */
+body{
+    background-color:hsl(345, 35%, 35%);   
+    height:100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/* section tag */
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;  
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(221, 212, 219);
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+/* Container*/
+#container{
+    color:#d7dfe4
+}
+
+/* Numbers */
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+/* Clock texts */
+.txt{
+    font-size:50px;
+    font-weight: bold;
+}
+
+/* Button */
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+    background-color: hsl(128, 90%, 45%);
+}
+#stop{
+    background-color: hsl(0, 88%, 43%);
+}
+#reset{
+    background-color: hsl(56, 87%, 47%);
+}
